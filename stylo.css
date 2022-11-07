@@ -13,7 +13,7 @@
 }
 #navbarCollapse{
     position: absolute;
-    margin-left: 30%;
+    margin-left: 50%;
 }
 .navbar{
     background-color: rgb(53, 58, 64);
@@ -25,7 +25,6 @@
 @media (min-width: 1800px){
     .nav-item{
         font-size: 22px;
-        .text-end;
     }
     #conf{
         font-size: 35px;
@@ -50,26 +49,26 @@
 
 .caja{
     border: 2px solid rgb(148, 194, 244);
-    margin: 0 auto;
+    margin-left: 12.2%;
     text-align: center;
-    width: 243px;
-    height: 180px;
+    width: 280px;
+    height: 200px;
 
 }
 .caja1{
     border: 2px solid rgb(157, 209, 217);
     margin: 0 auto;
     text-align: center;
-    width: 243px;
-    height: 180px;
+    width: 280px;
+    height: 200px;
 
 }
 .caja2{
     border: 2px solid rgb(248, 225, 156);
-    margin: 0 auto;
+    margin-right: 12.2%;
     text-align: center;
-    width: 243px;
-    height: 180px;
+    width: 280px;
+    height: 200px;
 }
 .span{
     font-size: 14px;

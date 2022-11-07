@@ -1,4 +1,4 @@
-function calcular(){
+function totalapagar(){
     var categoria = document.getElementById("categoria").value;
     switch(categoria){
         case "estudiante":
