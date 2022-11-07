@@ -105,9 +105,6 @@
     }
 }
 @media (max-width:750px){
-    .container1{
-       margin-right: 50%;
-    }
     .caja{
        margin-right: 2%;
        
@@ -119,8 +116,6 @@
     .caja2{
         width: 80px;
         font-size: 15px;
-     
-        
     }
     .caja h4,
     .caja1 h4,
