@@ -19,12 +19,11 @@
     background-color: rgb(53, 58, 64);
     margin: 0 auto;
 }
-.nav-item{
-    font-size:18px;
-}
+
 @media (min-width: 1800px){
     .nav-item{
         font-size: 22px;
+        
     }
     #conf{
         font-size: 35px;
@@ -32,12 +31,13 @@
 }
 @media (min-width: 1400px) and (max-width: 1800px){
     .nav-item{
-        font-size: 15px;
+        font-size: 105px;
     }
     #conf{
-        font-size: 25px;
+        font-size: 35px;
     }
 }
+
 /*Estilos Cajas*/
 .container1{
     margin-top: 30px;
@@ -105,11 +105,22 @@
     }
 }
 @media (max-width:750px){
-    .caja,
-    .caja1,
+    .container1{
+       margin-right: 50%;
+    }
+    .caja{
+       margin-right: 2%;
+       
+    }
+    .caja1{
+        margin-right: 2%;
+        
+     }
     .caja2{
         width: 80px;
-        font-size: 10px;
+        font-size: 15px;
+     
+        
     }
     .caja h4,
     .caja1 h4,

@@ -8,8 +8,8 @@ function totalapagar(){
             var descuento = 50;
             break;
         case "junior":
-                var descuento = 15;
-                break;
+            var descuento = 15;
+            break;
     }
     var Cantidad = document.getElementById("cantidad").value;
     var total = (Cantidad * 200)-((Cantidad*200)*descuento)/100;
