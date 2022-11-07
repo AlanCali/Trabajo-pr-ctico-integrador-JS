@@ -12,6 +12,7 @@ function totalapagar(){
             break;
     }
     var Cantidad = document.getElementById("cantidad").value;
-    var total = (Cantidad * 200)-((Cantidad*200)*descuento)/100;
+    
+    var total = (Cantidad*200)-(((Cantidad*200)*descuento)/100);
     document.getElementById("pagar").innerHTML = "Total a Pagar: $" + total;
 }
